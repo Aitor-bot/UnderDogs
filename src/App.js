@@ -1,10 +1,15 @@
 import './App.css';
 
-import HomeBackground from './Components/HomeBackground/HomeBackground';
+import HomeBackground from './components/HomeBackground/HomeBackground';
+
+
 
 function App() {
   return (
+    <div>
       <HomeBackground></HomeBackground>
+
+    </div>
   );
 }
 
