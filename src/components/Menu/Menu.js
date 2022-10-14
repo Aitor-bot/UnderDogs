@@ -19,11 +19,9 @@ function Menu() {
             <li class="nav__item"><a href='magiceden.io'>STAKING</a></li>
             <li class="nav__item"><a href='magiceden.io'>ABOUT US</a></li>
             <li class="nav__item"><a href='https://twitter.com/Underdogs_Sol' target="_blank" rel='noreferrer'><img src={twitter} className="menu__img" alt='twitter'></img></a></li>
-            <li class="nav__item"><a href='#!'target="_blank" rel='noreferrer'><img src={discord} className="menu__img" alt='discord'></img></a></li>
+            <li class="nav__item"><a href='#!' target="_blank" rel='noreferrer'><img src={discord} className="menu__img" alt='discord'></img></a></li>
             <li class="nav__item"><a href='https://magiceden.io/' target="_blank" rel='noreferrer'><img src={magiceden} className="menu__img magic" alt='discord'></img></a></li>
-
           </ul>
-
         </nav>
       </div>
     </div >
