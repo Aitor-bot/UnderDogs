@@ -1,10 +1,11 @@
 import React from 'react';
 import '../MenuMobile/MenuMobile.scss'
 
-import { Link } from "react-scroll";
 
 import { FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
+import magiceden from '../../assets/img/magiceden.png'
+
 
 
 function MenuMobile() {
@@ -30,6 +31,8 @@ function MenuMobile() {
             <a href="#!"><FaDiscord /></a></li>
           <li>
             <a href="#!"><FaTwitter /></a></li>
+          <li>
+            <a href='https://magiceden.io/' target="_blank" rel='noreferrer'><img src={magiceden} className="menu__img magic" alt='discord'></img></a></li>
         </ul>
       </div>
     </div>
