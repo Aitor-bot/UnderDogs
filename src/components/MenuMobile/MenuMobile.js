@@ -10,6 +10,7 @@ import { FaTwitter } from 'react-icons/fa';
 function MenuMobile() {
   return (
     <div className='mobilemenu__body'>
+      <img src={logo} className="menu__logo" alt='logo'></img>
 
       <input type="checkbox" id="active" />
       <label for="active" className="menu-btn"><span></span></label>
@@ -17,61 +18,15 @@ function MenuMobile() {
       <div className="wrapper">
         <ul>
           <li>
-            <Link
-              activeClass="active"
-              to=""
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Home
-            </Link>
+            <a href="#!">ROADMAP</a>
           </li>
           <li>
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              About
-            </Link></li>
+            <a href="#!">STAKING</a>
+          </li>
           <li>
-            <Link
-              activeClass="active"
-              to="services"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={600}
-            >
-              Features
-            </Link></li>
-          <li>
-            <Link
-              activeClass="active"
-              to="roadmap"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={700}
-            >
-              Roadmap
-            </Link></li>
-          <li>
-            <Link
-              activeClass="active"
-              to="team"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={900}
-            >
-              Team
-            </Link></li>
+            <a href="#!">ABOUT US</a>
+          </li>
+
           <li>
             <a href="#!"><FaDiscord /></a></li>
           <li>
