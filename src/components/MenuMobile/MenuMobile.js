@@ -10,7 +10,6 @@ import { FaTwitter } from 'react-icons/fa';
 function MenuMobile() {
   return (
     <div className='mobilemenu__body'>
-      <img src={logo} className="menu__logo" alt='logo'></img>
 
       <input type="checkbox" id="active" />
       <label for="active" className="menu-btn"><span></span></label>
