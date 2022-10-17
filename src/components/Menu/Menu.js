@@ -19,9 +19,9 @@ function Menu() {
             <li className="nav__item">
               <Link to="/roadmap">ROADMAP</Link>
             </li>
-            <li className="nav__item"><a href='magiceden.io'>STAKING</a>
+            <li className="nav__item"><a href='#!'>STAKING</a>
             </li>
-            <li className="nav__item"><a href='magiceden.io'>ABOUT US</a>
+            <li className="nav__item"><a href='#!'>ABOUT US</a>
             </li>
 
             <li className="nav__item"><a href='https://twitter.com/Underdogs_Sol' target="_blank" rel='noreferrer'><img src={twitter} className="menu__img" alt='twitter'></img></a></li>

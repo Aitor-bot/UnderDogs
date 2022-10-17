@@ -4,12 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 import Router from "./router"
 import RouterResponsive from './routerresponsive';
 
-import HomeBackground from './components/HomeBackground/HomeBackground';
-import Menu from './components/Menu/Menu';
-import MenuMobile from './components/MenuMobile/MenuMobile'
-import Roadmap from './components/Roadmap/Roadmap'
-
-
 
 function App() {
   return (
