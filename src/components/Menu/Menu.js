@@ -14,7 +14,7 @@ function Menu() {
     <div className='menu'>
       <div className='menu_container'>
         <nav className="nav">
-          <img src={logo} className="menu__logo" alt='logo'></img>
+          <Link to="/"><img src={logo} className="menu__logo" alt='logo'></img></Link>
           <ul className="nav__list">
             <li className="nav__item">
               <Link to="/roadmap">ROADMAP</Link>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../MenuMobile/MenuMobile.scss'
+import { Link } from "react-router-dom";
 
 
 import { FaDiscord } from 'react-icons/fa';
@@ -14,7 +15,8 @@ import logo from '../../assets/img/logo.png'
 function MenuMobile() {
   return (
     <div>
-      <img src={logo} className="menumobile__logo" alt='logo'></img>
+      
+      <Link to="/"><img src={logo} className="menumobile__logo" alt='logo'></img></Link>
 
       <div className='mobilemenu__body'>
 

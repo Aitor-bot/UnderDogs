@@ -14,8 +14,6 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-      <HomeBackground></HomeBackground>
-        <Menu />
         <div>
           <Router />
         </div>
