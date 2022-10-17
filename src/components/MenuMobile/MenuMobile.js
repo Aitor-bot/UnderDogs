@@ -19,8 +19,8 @@ function MenuMobile() {
       <div className='mobilemenu__body'>
 
         <input type="checkbox" id="active" />
-        <label for="active" className="menu-btn"><span></span></label>
-        <label for="active" className="close"></label>
+        <label htmlFor="active" className="menu-btn"><span></span></label>
+        <label htmlFor="active" className="close"></label>
         <div className="wrapper">
           <ul>
             <li>
