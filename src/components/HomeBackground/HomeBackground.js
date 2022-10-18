@@ -10,4 +10,4 @@ function HomeBackground() {
     );
   }
   
-  export default HomeBackground;
+  export default HomeBackground; 
