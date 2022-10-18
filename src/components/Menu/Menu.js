@@ -19,7 +19,8 @@ function Menu() {
             <li className="nav__item">
               <Link to="/roadmap">ROADMAP</Link>
             </li>
-            <li className="nav__item"><a href='#!'>STAKING</a>
+            <li className="nav__item">
+            <Link to="/staking">STAKING</Link>
             </li>
             <li className="nav__item"><a href='#!'>ABOUT US</a>
             </li>

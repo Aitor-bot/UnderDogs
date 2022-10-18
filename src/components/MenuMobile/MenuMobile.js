@@ -29,7 +29,7 @@ function MenuMobile() {
             <Link to="/roadmap">ROADMAP</Link>
             </li>
             <li>
-              <a href="#!">STAKING</a>
+            <Link to="/staking">STAKING</Link>
             </li>
             <li>
               <a href="#!">ABOUT US</a>
