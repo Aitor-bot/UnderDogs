@@ -1,62 +1,81 @@
 import React from 'react';
 import '../Roadmap/Roadmap.scss'
-import {
-  Timeline,
-  Events,
-  UrlButton,
-  ImageEvent,
-  TextEvent,
-} from '@merc/react-timeline';
 
-function Roadmap() {
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
+
+function Roadmap2() {
   return (
-    <div className='roadmap__container'>
-      <Timeline>
-        <Events>
-          
-          <TextEvent date="November" text="ibus et magnis dis pa vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
-        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
-        porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
-        ibus et magnis dis pa vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
-        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
-        porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. " />
+    <div className="timeline-content" id='roadmap'>
+      <p className='roadmap__title'>The UnderDogs roadmap</p>
+      <div className='roadmap__description'>
+        <p>Something here? Maybe we can put a carousel with some sneak peaks of the project and have it change automatically. Scroll down to see the roadmap </p>
+      </div>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          //contentArrowStyle={{ borderRight: '7px solid  rgb(252, 163, 17)' }}
+          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
 
-          <ImageEvent
-            date="November"
-            text="Lorem Ipsum..."
-            src="https://cdn.discordapp.com/attachments/957969651646730290/1029106160223137902/unknown.png"
-            alt="jellyfish swimming"
-          >
-            <div>
-              <UrlButton href="https://magiceden.io/" target="_blank">
-                Link to ...
-              </UrlButton>
-            </div>
-          </ImageEvent>
+        >
+          <h3 className="vertical-timeline-element-title">PHASE 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer ac elementum orci. Quisque lacus ipsum, ultricies imperdiet aliquet ut, pretium in ante.
+            Etiam scelerisque placerat lorem, sed commodo nunc dictum in. Etiam tempor leo sed lorem pulvinar, <br></br> <br></br>
+            eu viverra magna tristique. In ut lacus a orci accumsan congue bibendum sed purus.
+            Nam aliquet dui sed varius blandit. Nunc mauris libero, rutrum sit amet feugiat eget,
 
-          <TextEvent date="Lorem ipsum" text="ibus et magnis dis pa vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
-        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
-        porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. " />
+          </p>
 
-          <ImageEvent
-            date="Lorem Ipsum"
-            text="Lorem Ipsum..."
-            src="https://cdn.discordapp.com/attachments/957969651646730290/1029106160223137902/unknown.png"
-            alt="jellyfish swimming"
-          >
-            <div>
-              <UrlButton href="https://magiceden.io/" target="_blank">
-                Link to ...
-              </UrlButton>
-            </div>
-          </ImageEvent>
-          <TextEvent date="Lorem ipsum" text="ibus et magnis dis pa vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
-        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
-        porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. " />
-        </Events>
-      </Timeline>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
+        >
+          <h3 className="vertical-timeline-element-title">PHASE 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer ac elementum orci. Quisque lacus ipsum, ultricies imperdiet aliquet ut, pretium in ante.
+            Etiam scelerisque placerat lorem, sed commodo nunc dictum in. Etiam tempor leo sed lorem pulvinar, <br></br> <br></br>
+            eu viverra magna tristique. In ut lacus a orci accumsan congue bibendum sed purus.
+            Nam aliquet dui sed varius blandit. Nunc mauris libero, rutrum sit amet feugiat eget,
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
+        >
+          <h3 className="vertical-timeline-element-title">PHASE 3</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer ac elementum orci. Quisque lacus ipsum, ultricies imperdiet aliquet ut, pretium in ante.
+            Etiam scelerisque placerat lorem, sed commodo nunc dictum in. Etiam tempor leo sed lorem pulvinar, <br></br> <br></br>
+            eu viverra magna tristique. In ut lacus a orci accumsan congue bibendum sed purus.
+            Nam aliquet dui sed varius blandit. Nunc mauris libero, rutrum sit amet feugiat eget,
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
+        >
+          <h3 className="vertical-timeline-element-title">PHASE 4</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer ac elementum orci. Quisque lacus ipsum, ultricies imperdiet aliquet ut, pretium in ante.
+            Etiam scelerisque placerat lorem, sed commodo nunc dictum in. Etiam tempor leo sed lorem pulvinar, <br></br> <br></br>
+            eu viverra magna tristique. In ut lacus a orci accumsan congue bibendum sed purus.
+            Nam aliquet dui sed varius blandit. Nunc mauris libero, rutrum sit amet feugiat eget,
+          </p>
+        </VerticalTimelineElement>
+
+
+
+      </VerticalTimeline>
+
     </div>
   );
 }
 
-export default Roadmap;
+export default Roadmap2;
