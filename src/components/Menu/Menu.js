@@ -20,7 +20,7 @@ function Menu() {
               <Link to="/roadmap">ROADMAP</Link>
             </li>
             <li className="nav__item">
-            <Link to="/staking">STAKING</Link>
+              <a href='#!'>STAKING</a>
             </li>
             <li className="nav__item"><a href='#!'>ABOUT US</a>
             </li>

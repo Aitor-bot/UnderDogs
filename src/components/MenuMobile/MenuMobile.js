@@ -15,7 +15,7 @@ import logo from '../../assets/img/logo.png'
 function MenuMobile() {
   return (
     <div>
-      
+
       <Link to="/"><img src={logo} className="menumobile__logo" alt='logo'></img></Link>
 
       <div className='mobilemenu__body'>
@@ -26,10 +26,10 @@ function MenuMobile() {
         <div className="wrapper">
           <ul>
             <li>
-            <Link to="/roadmap">ROADMAP</Link>
+              <Link to="/roadmap">ROADMAP</Link>
             </li>
             <li>
-            <Link to="/staking">STAKING</Link>
+              <a href='#!'>STAKING</a>
             </li>
             <li>
               <a href="#!">ABOUT US</a>
