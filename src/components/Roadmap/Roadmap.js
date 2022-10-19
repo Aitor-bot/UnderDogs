@@ -10,17 +10,21 @@ import 'react-vertical-timeline-component/style.min.css';
 function Roadmap2() {
   return (
     <div className="timeline-content" id='roadmap'>
-     {/* <p className='roadmap__title'>The UnderDogs roadmap</p>*/}
+      <p className='roadmap__title'>Roadmap</p>
       <div className='roadmap__description'>
-        <p>Some text here? </p>
+        <p>Our goal is/was to make a challenge of 10 to 1000 solanas... We created this collection for... Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat <br></br> <br></br>
+        </p>
         <Carousel></Carousel>
-
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           //contentArrowStyle={{ borderRight: '7px solid  rgb(252, 163, 17)' }}
-          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 
         >
           <h3 className="vertical-timeline-element-title">PHASE 1</h3>
@@ -36,7 +40,7 @@ function Roadmap2() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">PHASE 2</h3>
           <p>
@@ -49,7 +53,7 @@ function Roadmap2() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">PHASE 3</h3>
           <p>
@@ -62,7 +66,7 @@ function Roadmap2() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: 'rgb(218, 23, 227)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">PHASE 4</h3>
           <p>
@@ -74,9 +78,13 @@ function Roadmap2() {
           </p>
         </VerticalTimelineElement>
 
-
-
       </VerticalTimeline>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
     </div>
   );

@@ -1,19 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
+  background-image: linear-gradient(to bottom, rgba(227,52,105,255),rgba(141,123,255,255));
   }
   
   .timeline-content {
     margin: auto;
     position: relative;
     max-width: 120ch;
+    height: 100%;
+    
+ 
+
   }
   
   .roadmap__title {
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-decoration: underline;
     color: black;
     text-underline-offset: 20px;
-    text-decoration-color: lightblue;
-    margin-bottom: 60px;
+    text-decoration-color: black;
+    
   
     @media only screen and (max-width: 600px) {
       margin-left: 20px;
@@ -29,11 +37,14 @@ body {
 
   .roadmap__description{
     min-height: 90vh; 
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
 .vertical-timeline::before, .vertical-timeline::after {
-    background-color: #7289da !important;
+    background-color: black !important;
 }
 
 /*body::-webkit-scrollbar { width: 0 !important }
