@@ -12,7 +12,7 @@ function Roadmap2() {
     <div className="timeline-content" id='roadmap'>
       <p className='roadmap__title'>Roadmap</p>
       <div className='roadmap__description'>
-        <p>Our goal is/was to make a challenge of 10 to 1000 solanas... We created this collection for... Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        <p>Our goal is to make a challenge of 10 to 1000 solanas... We created this collection for... Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
           Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
           pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
           venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
