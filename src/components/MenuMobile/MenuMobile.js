@@ -16,7 +16,7 @@ function MenuMobile() {
   return (
     <div>
 
-      <Link to="/"><img src={logo} className="menumobile__logo" alt='logo'></img></Link>
+      {/*<Link to="/"><img src={logo} className="menumobile__logo" alt='logo'></img></Link>*/}
 
       <div className='mobilemenu__body'>
 

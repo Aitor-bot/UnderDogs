@@ -9,7 +9,7 @@ const RouterResponsive = () => {
     return (
         <Routes>
             <Route path="/" element={<><HomeBackground /><MenuMobile /></>} />
-            <Route path="/roadmap" element={<><Roadmap /><MenuMobile /></> } />
+            <Route path="/roadmap" element={<><MenuMobile /><Roadmap /></> } />
         </Routes>
     )
 }
